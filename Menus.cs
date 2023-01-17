@@ -9,7 +9,7 @@
             {
                 Console.WriteLine("Menu:");
                 Console.WriteLine("1. Array");
-                Console.WriteLine("2. Numero");
+                Console.WriteLine("2. Numeros");
                 Console.WriteLine("3. String");
                 Console.WriteLine("4. Decimales");
                 Console.WriteLine("5. Salir");
@@ -21,7 +21,7 @@
                         Menus2.Arrays();
                         break;
                     case 2:
-                        Menus2.Numero();
+                        Menus2.Numeros();
                         break;
                     case 3:
                         Menus2.String();
@@ -60,20 +60,25 @@
                 switch (opciones)
                 {
                     case 1:
+                        Entornos.Arrays.Maximo();
                         break;
                     case 2:
+                        Entornos.Arrays.Minimo();
                         break;
                     case 3:
+                        Entornos.Arrays.Mediana();
                         break;
                     case 4:
+                        Entornos.Arrays.Media();
                         break;
                     case 5:
+                        Entornos.Arrays.Ordenar();
                         break;
                     case 6:
+                        Entornos.Arrays.Desviacion_tipica();
                         break;
                     case 7:
-                        break;
-                    case 8:
+                        Entornos.Arrays.Binarizar();
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
@@ -81,7 +86,7 @@
                 }
             } while (opciones != 8);
         }
-        public static void Numero()
+        public static void Numeros()
         {
             int opciones = 0;
             Console.Clear();
@@ -100,19 +105,22 @@
                 switch (opciones)
                 {
                     case 1:
+                        Entornos.Numero.Primo();
                         break;
                     case 2:
+                        Entornos.Numero.Factorial();
                         break;
                     case 3:
+                        Entornos.Numero.Segundos();
                         break;
                     case 4:
                         Entornos.Numero.Pell();
                         break;
                     case 5:
+                        Entornos.Numero.Armstrong();
                         break;
                     case 6:
-                        break;
-                    case 7:
+                        Entornos.Numero.Digitos_diferentes();
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
@@ -139,18 +147,22 @@
                 switch (opciones)
                 {
                     case 1:
+                        Entornos.String.Palindromo();
                         break;
                     case 2:
+                        Entornos.String.Mayusculas_minusculas();
                         break;
                     case 3:
+                        Entornos.String.Ocurrencias();
                         break;
                     case 4:
+                        Entornos.String.Repetir_strings();
                         break;
                     case 5:
+                        Entornos.String.Repetir_letra();
                         break;
                     case 6:
-                        break;
-                    case 7:
+                        Entornos.String.Eliminar_cadena();
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
@@ -174,15 +186,16 @@
                 switch (opciones)
                 {
                     case 1:
+                        Entornos.Decimales.Redondear_Alza();
                         break;
                     case 2:
+                        Entornos.Decimales.Eliminar_Decimales();
                         break;
                     case 3:
-                        break;
-                    case 4:
+                        Entornos.Decimales.Ecuacion_2º();
                         break;
                     default:
-                        Console.WriteLine("Invalid option. Try again.");
+                        Console.WriteLine("Opcion no valida");
                         break;
                 }
             } while (opciones != 4);
