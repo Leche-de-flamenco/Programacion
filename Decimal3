@@ -1,0 +1,14 @@
+double a, b, c, resultadoP, resultadoN;
+Console.WriteLine("Escribe 3 coeficientes para realizar un ecuacion de 2º grado");
+Console.WriteLine("Escriba el valor de a");
+a = double.Parse(Console.ReadLine());
+Console.WriteLine("Escriba el valor de b");
+b = double.Parse(Console.ReadLine());
+Console.WriteLine("Escriba el valor de c");
+c = double.Parse(Console.ReadLine());
+resultadoP = (-b + (Math.Sqrt(Math.Pow(b, 2) - 4 * a * c))) / (2 * a);
+resultadoN = (-b - (Math.Sqrt(Math.Pow(b, 2) - 4 * a * c))) / (2 * a);
+if (resultadoP == resultadoN)
+    Console.WriteLine(resultadoP);
+else
+    Console.WriteLine(resultadoP + " " + resultadoN);

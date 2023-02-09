@@ -1,0 +1,15 @@
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\bin\Debug\net6.0\EntornosGrupo.exe
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\bin\Debug\net6.0\EntornosGrupo.deps.json
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\bin\Debug\net6.0\EntornosGrupo.runtimeconfig.json
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\bin\Debug\net6.0\EntornosGrupo.dll
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\bin\Debug\net6.0\EntornosGrupo.pdb
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.csproj.AssemblyReference.cache
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.AssemblyInfoInputs.cache
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.AssemblyInfo.cs
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.csproj.CoreCompileInputs.cache
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.dll
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\refint\EntornosGrupo.dll
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.pdb
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\EntornosGrupo.genruntimeconfig.cache
+C:\Users\Dario\source\repos\EntornosGrupo\EntornosGrupo\obj\Debug\net6.0\ref\EntornosGrupo.dll

@@ -1,0 +1,7 @@
+//ELIMINAR LOS DECIMALES DE UN NUMERO
+int numero;
+decimal numeroD;
+Console.WriteLine("Escibe un numero decimal al cual quieras eliminar los decimales");
+numeroD = decimal.Parse(Console.ReadLine());
+numero = (int)(numeroD / 1);
+Console.WriteLine(numero);
