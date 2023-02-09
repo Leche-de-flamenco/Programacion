@@ -12,7 +12,7 @@ namespace Entornos
         {
             Console.Clear();
             Console.WriteLine("Escribe el numero que quieres redondear al alza");
-            decimal numero = decimal.Parse(Console.ReadLine());
+            decimal numero = Validaciones.DecimalValidado();
             Console.WriteLine(Math.Ceiling(numero));
             Console.ReadKey();
             Console.Clear();
@@ -23,7 +23,7 @@ namespace Entornos
             int numero;
             decimal numeroD;
             Console.WriteLine("Escibe un numero decimal al cual quieras eliminar los decimales");
-            numeroD = decimal.Parse(Console.ReadLine());
+            numeroD = Validaciones.DecimalValidado();
             numero = (int)(numeroD / 1);
             Console.WriteLine(numero);
             Console.ReadKey();
@@ -35,11 +35,11 @@ namespace Entornos
             double a, b, c, resultadoP, resultadoN;
             Console.WriteLine("Escribe 3 coeficientes para realizar un ecuacion de 2º grado");
             Console.WriteLine("Escriba el valor de a");
-            a = double.Parse(Console.ReadLine());
+            a = Validaciones.DoubleValidado();
             Console.WriteLine("Escriba el valor de b");
-            b = double.Parse(Console.ReadLine());
+            b = Validaciones.DoubleValidado();
             Console.WriteLine("Escriba el valor de c");
-            c = double.Parse(Console.ReadLine());
+            c = Validaciones.DoubleValidado();
             resultadoP = (-b + (Math.Sqrt(Math.Pow(b, 2) - 4 * a * c))) / (2 * a);
             resultadoN = (-b - (Math.Sqrt(Math.Pow(b, 2) - 4 * a * c))) / (2 * a);
             if (resultadoP == resultadoN)

@@ -15,7 +15,7 @@ namespace Entornos
             int Primo = 0;
             Console.Clear();
             Console.WriteLine("Escribe un numero para saber si es primo o no");
-            numero = int.Parse(Console.ReadLine());
+            numero = Validaciones.EnteroValidado();
             if ((numero < 2) || (numero % 2 == 0)) Primo++;
             else for (int i = 3; i < numero / 2; i++) if (numero % i == 0) { Primo++; break;}
             if (Primo > 0) Console.WriteLine("El numero introducido no es un numero primo");
@@ -29,7 +29,7 @@ namespace Entornos
             int factorial = 1;
             Console.Clear();
             Console.WriteLine("Escribe un numero para sacar el factorial");
-            numero = int.Parse(Console.ReadLine());
+            numero = Validaciones.EnteroValidado();
             for (int i = numero; i > 0; i--) factorial *= i;
             Console.WriteLine("El factorial de " + numero + " es: " + factorial);
             Console.ReadKey();
@@ -39,7 +39,7 @@ namespace Entornos
         {
             Console.Clear();
             Console.WriteLine("Escribe los segundos");
-            int segundos = int.Parse(Console.ReadLine());
+            int segundos = Validaciones.EnteroValidado();
             Console.WriteLine(string.Format("{0:d2}H:{1:d2}M:{2:d2}S", segundos / 3600, segundos / 60 % 60, segundos % 60));
             Console.ReadKey();
             Console.Clear();
@@ -75,7 +75,7 @@ namespace Entornos
             int suma = 0;
             Console.Clear();
             Console.WriteLine("Introduce un numero para saber si es un numero Armstrong");
-            numero = int.Parse(Console.ReadLine());
+            numero = Validaciones.EnteroValidado();
             cadena = Convert.ToString(numero);
             foreach (char digito in cadena) suma += (int)Math.Pow(Convert.ToInt32(digito-'0'), 3);
             if (suma == numero) Console.WriteLine("Es un numero de Armstrong");
@@ -90,7 +90,7 @@ namespace Entornos
             int cont = 0;
             Console.Clear();
             Console.WriteLine("Escribe un numero para comprobar si sus digitos son diferentes");
-            numero = int.Parse(Console.ReadLine());
+            numero = Validaciones.EnteroValidado();
             cadena = Convert.ToString(numero);
             for (int i = 0; i < cadena.Length; i++)
             {
